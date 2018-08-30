@@ -1,0 +1,162 @@
+{
+	"id": "98b1b1f2-706d-4163-940b-d56bf7a7a3b2",
+	"name": "Mcommerce-partie1",
+	"allTests": [],
+	"timestamp": "2018-08-30T08:10:51.196Z",
+	"collection_id": "31d5806b-d610-4e18-9fcc-2edbad221f36",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "31d5806b-d610-4e18-9fcc-2edbad221f36",
+		"name": "Mcommerce-partie1",
+		"description": "Partie 4 - Test des méthodes créées\n\nSuivez les étapes suivantes pour écrire la collection, l'exécuter et founir le résultat pour votre testeur :\n\n    Créez un dossier  TestsPostman à la racine de votre projet\n    Dans Postman, créez une collection pour définir vos tests\n    Faites une capture d'écran du résultat de l'exécution de la collection\n    Exportez la collection au format JSON  dans le dossier  TestsPostman\n    Commitez et poussez vers le dépôt GitHub\n",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"970f5915-2fc2-43bb-8f22-0773aad21dfc",
+			"6e1c9559-d7e5-46e5-a6c3-2747bd29276b",
+			"20c3d7bb-d8c3-47e8-96a4-826117b97ead"
+		],
+		"folders_order": [],
+		"owner": "5185786",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "Partie 1 - Affichage de la marge",
+			"id": "970f5915-2fc2-43bb-8f22-0773aad21dfc",
+			"url": "http://localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"52"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "52",
+			"totalRequestTime": "52",
+			"iterationResults": {}
+		},
+		{
+			"name": "Partie 2 - Tri par ordre alphabétique",
+			"id": "6e1c9559-d7e5-46e5-a6c3-2747bd29276b",
+			"url": "http://localhost:9090/test/produits/trie",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": "Partie 3 - Validation du prix de vente",
+			"id": "20c3d7bb-d8c3-47e8-96a4-826117b97ead",
+			"url": "http://localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"14"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "14",
+			"totalRequestTime": "14",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 81,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Partie 1 - Affichage de la marge",
+			"id": "970f5915-2fc2-43bb-8f22-0773aad21dfc",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": "2018-08-30T08:10:51.196Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "Partie 2 - Tri par ordre alphabétique",
+			"id": "6e1c9559-d7e5-46e5-a6c3-2747bd29276b",
+			"url": "http://localhost:9090/test/produits/trie",
+			"time": "2018-08-30T08:10:51.196Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "Partie 3 - Validation du prix de vente",
+			"id": "20c3d7bb-d8c3-47e8-96a4-826117b97ead",
+			"url": "http://localhost:9090/Produits",
+			"time": "2018-08-30T08:10:51.196Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
